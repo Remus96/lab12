@@ -116,11 +116,11 @@ public:
 int main()
 {
     Vector vect(4);
-    String c("Birou");
+    String c("Extraustil");
     vect.add(c);
     vect.add(*(new String("Ionut")));
-    vect.add(*(new String ("Maria")));
-    vect.add(*(new String("Scaun")));
+    vect.add(*(new String ("Mihai")));
+    vect.add(*(new String("Stil")));
     vect.print();
     if (vect.check(*(new String("Ionut"))))
         cout<<"Cuvantul dat se afla in vectorul de stringuri.\n";
